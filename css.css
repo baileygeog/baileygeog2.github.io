@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    background-color: white;
+    font-family: Arial,Helvetica,freesans,sans-serif;
+    overflow: scroll;
+	min-width: 1150px;
+}
+
+
+.header{
+	position: relative;
+	background-color: SaddleBrown;
+	top: 0px;
+	height: 60px;
+	min-width: 100%;
+	max-width:100%;
+	text-align: center;
+}
+
+.topnav {
+	position: relative;
+	background-color: FireBrick;
+	top: 50%;
+	max-height: 10%;
+	max-width:100%;
+	text-align: center;
+	z-index: 9;
+	top: -40px;
+	width: 400px;
+	left: 35%;
+}
+
+
+.leftnav {
+    position: absolute;
+    background-color: FireBrick;
+    width:15%;
+    height: 100%;
+    top: 60px;
+    text-align: center;
+} 
+
+/* keep this div as relative, chnage height/width using px, not % */
+.infocontainer{
+	position: relative;
+	left: 17%;
+	height: 400px;
+	width: 50%;
+}
+
+/* changed to absolute */
+.info{
+    position: absolute;
+    top: 7%;
+    left: 40%;
+}
+
+
+.image{
+    position: absolute;
+    top: 1%;
+    left: 5%;
+    max-width:200px;
+}
+
+.interests{
+    position: absolute;
+    top: 55%;
+    left: 10%;
+}
+
+
+.footer{
+	position: absolute;
+	background-color: SaddleBrown;
+	bottom: 0px;
+	top:93%;
+	height: 50px;
+	min-width: 100%;
+	max-width:100%;
+	text-align: center;
+	vertical-align: bottom;
+}
+
+.bottomnav {
+	position: absolute;
+	bottom: 4%;
+	max-height: 5%;
+	max-width:100%;
+	text-align: center;
+	z-index: 9;
+	bottom: 29px;
+	background-color: FireBrick;
+	width: 400px;
+	left: 35%;
+}
+
+#bottomtext {
+	text-align: center;
+}
